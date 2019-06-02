@@ -15,7 +15,9 @@ unofficial mxnet reimplement
   resnet34_v2, lr=0.01 batch_size=64, epoch=450,lr_step: 300,350,400
   
   baseline: 0.594
-  
+
+  Usage: python3 cache/run_train.sh
+
 ## tricks
   I had try some tricks which were from the Paper [Bag of Tricks for Image Classification with Convolutional Neural Networks](https://arxiv.org/abs/1812.01187) :
   
@@ -33,7 +35,7 @@ unofficial mxnet reimplement
   |baseline|0.594|
   |+warmup|0.603|
   |+label smooth|0.644|
-  |+cutout|0.618|it doesn't work|
-  |+RandomErasing|0.622|it doesn't work|
+  |+cutout|0.618,it doesn't work|
+  |+RandomErasing|0.622,it doesn't work|
   
 
